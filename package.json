@@ -1,0 +1,35 @@
+{
+  "name": "how-to-react-hooks",
+  "version": "0.0.1",
+  "description": "HowToReduxをReactHooksで実装",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server --inline --history-api-fallback --no-info",
+    "release": "rimraf build && NODE_ENV=production webpack --mode production",
+    "reset": "rimraf node_modules"
+  },
+  "author": "camcam_lemon",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "styled-components": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "@types/styled-components": "^4.1.0",
+    "prettier": "^1.15.2",
+    "rimraf": "^2.6.2",
+    "ts-loader": "^5.3.0",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.6",
+    "typescript-styled-plugin": "^0.13.0",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
