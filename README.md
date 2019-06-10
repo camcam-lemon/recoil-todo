@@ -3,8 +3,6 @@
 React Hooks 用のテンプレートです。  
 HowToRedux を React Hooks で実装しなおしています。
 
-**2018/1/21 時点での最新の内容になります。alpha 版なので現行の書き方と異なる場合があります。**
-
 # 開発手順
 
 ## node_modules のインストール
@@ -40,3 +38,9 @@ React 16.7.0-alpha.2 で実装し直しました。
 
 React 16.8.0-alpha.1 にバージョンを上げました。  
 また、HowToReactHooks3 を ContextAPI ベースで書き直しました。
+
+## 追記（2019/6/10）
+
+React 16.8.6 にバージョンをあげました。  
+useCallback の使い方が間違っている箇所や、actionCreator を`as const`で書き直したりしました。  
+また、開発時には Type Script の型チェックを外すようにしてビルド速度を改善しました。
