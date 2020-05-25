@@ -1,7 +1,7 @@
 {
-  "name": "how-to-react-hooks",
+  "name": "how-to-recoil",
   "version": "0.0.3",
-  "description": "HowToReduxをReactHooksで実装",
+  "description": "recoil検証用",
   "main": "index.html",
   "scripts": {
     "start": "webpack-dev-server --inline --history-api-fallback --no-info",
