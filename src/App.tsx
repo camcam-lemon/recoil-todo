@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import { Root } from './components/Root';
 
-// DOM出力
-ReactDom.render(<div>Hello React Hooks</div>, document.getElementById('content'));
+ReactDom.render(<Root />, document.getElementById('content'));

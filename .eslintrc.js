@@ -48,10 +48,10 @@ module.exports = {
         react: {
             version: 'detect',
         },
-        'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+        'import/extensions': ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
         'import/resolver': {
             node: {
-                extensions: ['.js', '.jsx', '.ts', '.tsx'],
+                extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
             },
         },
     },
@@ -73,6 +73,7 @@ module.exports = {
                 trailingComma: 'all',
             },
         ],
+        'import/prefer-default-export': OFF,
         'import/no-cycle': OFF,
         'no-plusplus': OFF,
         '@typescript-eslint/explicit-function-return-type': OFF,

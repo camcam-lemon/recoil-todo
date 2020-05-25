@@ -22,6 +22,6 @@
       "name": "typescript-styled-plugin"
     }]
   },
-  "include": ["src"],
+  "include": ["src", "recoil.d.ts"],
   "exclude": ["node_modules"]
 }
